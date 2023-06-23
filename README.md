@@ -13,6 +13,8 @@ Exploring embedding a python HTTP and Websockets server inside an iOS app (swift
 pip install --target=ios/lib <package name>
 ```
 - Python code lives in `ios/lib/homeCloudIos`
+- Memory usage of app on emulator was around 64MB. Mem usage with minimum python setup (no external python packages) was around 40MB.
+- Around 10 threads were observed.
 
 ## Resources
 
